@@ -19,7 +19,7 @@ import {
     document.getElementById('canvas').replaceWith(session.output.live);
   
     // Load the specified lens group.
-    const { lenses } = await cameraKit.lensRepository.loadLensGroups(['c05c984c-5703-47ad-972f-ac97075f6996'])
+    const { lenses } = await cameraKit.lensRepository.loadLensGroups(['c38cb81b-fa45-4f54-be32-d3b773552e30'])
   
     // Apply the first lens in the lens group to the CameraKit session.
     session.applyLens(lenses[0]);
